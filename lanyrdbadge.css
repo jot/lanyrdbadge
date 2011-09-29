@@ -7,4 +7,40 @@ div#lanyrd{
   border-radius:5px;
   width:20em;
 }
-#lanyrd a{color:#000;}
+#lanyrd a{color:#f00;}
+
+ol.lanyrd.events{
+	list-style-type: none;
+	clear: both;
+	margin: 0px;
+}
+
+ol.lanyrd.events li.conference.vevent{
+	list-style-type: none;
+	clear: both;
+	margin-bottom: 10px;
+}
+
+ol.lanyrd.events li.conference.vevent span.startday{
+	display:none;
+}
+
+ol.lanyrd.events li.conference.vevent p.date{
+  margin-bottom: 0px;	
+}
+
+ol.lanyrd.events li.conference.vevent p.location{
+	display:none;
+}
+
+ol.lanyrd.events li.conference.vevent ul.tags{
+	list-style-type: none;
+	margin: 0px;
+	overflow: hidden;
+}
+
+ol.lanyrd.events li.conference.vevent ul.tags li{
+	list-style-type: none;
+	float: left;
+	margin-right: 10px;
+}
